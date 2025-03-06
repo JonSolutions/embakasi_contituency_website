@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: "Roboto", Arial, "Helvetica Neue", sans-serif;
+            }
+
+            .card {
+                display: flex;
+                column-gap: 10px;
+                padding-bottom: 50px;
+                align-items: start;
+                height: auto;
+                
+            }
+
+            .card-image,
+            .card-text {
+                width: 50%;
+                min-height: 230px;
+                padding: 0 5px 10px 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                overflow: hidden;
+                border-radius: 10px;
+                max-width: 410px;
+            }
+
+            .card-image {
+                width: 16%;
+
+                padding: 0;
+                justify-content: flex-start;
+
+
+            }
+
+            .card-image img {
+                position: absolute;
+                width: 100%;
+                height: calc(100% + 20px);
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .card-text {
+                flex-direction: column;
+                border: 2px solid #F5BF00;
+                padding-bottom: 20px;
+            }
+
+            .card-text h4 {
+                font-size: 18px;
+                font-weight: 500;
+                margin: 10px 0;
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+            }
+
+            .card-text p {
+                margin: 5px 0;
+                font-size: 14px;
+            }
+
+            .card-text a {
+                margin-top: 20px;
+                padding: 10px 15px;
+                background-color: #f5c000ae;
+                text-align: center;
+                text-decoration: none;
+                color: #fff;
+                font-size: 18px;
+                border-radius: 25px;
+            }  
+           
+        </style>
+    </head>
+
+    <body>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="thumbnails/download (4).jpg" alt="">
+                </div>
+                <div class="card-text">
+                    <h4 class="text-title">
+                        <img src="thumbnails/message-icon.png"alt="">
+                        <span>ADMINISTRATIVE CENTER</span>
+                    </h4>
+                    <p>Embakasi East Constituency is an electoral constituency in Kenya. It is one of the seventeen constituencies in Nairobi County
+                         
+                       . </p>
+                    
+                    <a href=" #"> Learn more about History</a>
+                    
+
+                    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

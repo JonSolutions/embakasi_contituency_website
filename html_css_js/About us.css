@@ -1,0 +1,390 @@
+.header{
+
+    
+    color: black;
+    text-decoration:double;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+
+.overvieww{
+  
+
+  justify-content: baseline;
+  display: flex;
+  column-gap: 30px;
+  font-family:sans-serif;
+ 
+}
+
+.parra p{
+
+  font-family: sans-serif;
+  height: auto;
+}
+
+
+.trreeev{
+ column-gap: 7px;
+ display: flex;
+}
+
+  
+
+.fieldset{
+  border: 2px solid  burlywood;
+   border-radius: 8px;
+  padding:  10px ;
+  margin: 20px;
+
+  
+
+}
+.Owino{
+
+  font-family: sans-serif;
+}
+.kichwa{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.trev{
+  margin: 2px 0px;
+    color:black;
+    font-family: sans-serif;
+    font-size: medium;
+     column-gap: 15px;
+    display: flex;
+  justify-content: baseline;
+}
+.headerr{
+  text-decoration: double;
+}
+.miss{
+
+  color: blue;
+}
+.header2{
+  text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+.p2{
+    color:black; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+  text-align: center;
+  margin: 0px 0px;
+  
+}
+.fieldset2{
+  border: 10px solid  burlywood;
+  border-radius: 20px;
+ padding:  10px ;
+ margin: 20px;
+ padding:0  10px;
+
+
+}
+.sect22{
+
+  margin: 20px 0px;
+  color:black;
+  font-family: sans-serif;
+  font-size: medium;
+   column-gap: 20px;
+  display: flex;
+justify-content: baseline;
+border-radius: 20px;
+
+}
+.morning{
+  float: left;
+}
+.sec{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: flex;
+    column-gap: 20px;
+
+}
+.tr{
+    font-size: large
+}
+.faq{
+
+  color:black;
+  text-align:left;
+  background-color:li;
+  text-align:left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  
+}
+
+.learn{
+  font-family:Arial, Helvetica, sans-serif;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color:whitesmoke;
+}
+th,td{
+  padding: 12px;
+  text-align: left;
+  border: 1px solid ss#ddd;
+  
+  
+}
+th{
+  background-color:lightblue;
+
+}
+tr:hover{
+background-color:white;
+
+}
+li{
+  color:green;
+  font-size: larger;
+  font-family: sans-serif;
+}
+.imagg{
+
+  height: 250px;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px ;
+
+}
+.imagi{
+
+  height: 250px;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px ;
+}
+.headerr{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  
+}
+.boddy{
+
+  font-family: sans-serif;
+ 
+}
+.boddy{
+  min-height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.title{
+  font-size: 2rem;
+  margin: 1rem 0rem;
+  text-decoration: underline;
+}
+.faq{
+
+  max-width: 700px;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.question{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+.question h3{
+  font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+header{
+  background-image: url(media/JKIA-Refurbishment-1536x1021.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+/* .main{
+  height: 100px;
+  backdrop-filter: blur(50px);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+} */
+header ul{
+  float: right;
+  list-style-type:none;
+  margin-top: 40px;
+  min-height: 400px;
+  margin-right: 60px;
+  font-size: 17px;
+
+}
+header ul li{
+  display: inline-block;
+  
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  border:1px solid transparent;
+  transition: 0.5s ease-in-out;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+  background-color: #fff;
+  transition: 0.5s;
+
+}
+.active{
+  border-radius: 10px;
+  color: #000;
+
+}
+.active{
+  background-color: bisque;
+  border-radius: 10px;
+}
+.logo img:hover{
+  border-radius: 20px;
+  cursor: pointer;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+ 
+}
+ul li a:hover{
+  background-color: bisque;
+  border-radius: 3px;
+  color: #000;
+}
+.dropdown_menu {
+  display: none;
+}
+.dropdown_menu ul{
+  display: block;
+  position: absolute;
+  padding: 0px;
+  margin-top: 2%;
+  
+}
+.dropdown_menu ul li{
+  padding: 10px;
+  left: 0%;
+}
+
+ul li:hover .dropdown_menu{
+  display:block ;
+  position: absolute;
+  margin-top: 0;
+  
+}
+.dropdown_menu2{
+  display: none;
+}
+.dropdown_menu2 ul{
+  display: block;
+  padding: 0px;
+  position: absolute;
+  margin-top: 2%;
+}
+.dropdown_menu2 ul li{
+  padding: 10px;
+  left: 0%;
+}
+ul li:hover .dropdown_menu2{
+  display: block;
+  position: absolute;
+  margin-top: 0%;
+}
+.h1{
+  color: burlywood;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.dropdown_menu3{
+  display: none;
+}
+.dropdown_menu3 ul{
+  display: block;
+  padding: 0;
+  margin-top: 2px;
+  position: absolute;
+
+}
+ul li:hover .dropdown_menu3{
+  display: block;
+}
+.dropdown_menu3 ul li{
+  display: block;
+  padding: 10px;
+}
+.dropdown_menu4{
+  display: none;
+}
+.dropdown_menu4 ul{
+  display: block;
+  margin-top: 2px;
+  padding: 0%;
+  position: absolute;
+
+}
+.dropdown_menu4 ul li{
+  display: block;
+  padding: 10%;
+}
+ul li:hover .dropdown_menu4{
+  display: block;
+}
+.container{
+  float: right;
+  margin-top: 40px;
+  position: right;
+}
+.container form{
+  border-radius: 5px;
+  padding: 10px;
+  height: 50px;
+  background-color: gray;
+}
+.container form,input{
+  padding: 5px;
+  margin-top: 2%;
+}
+.container button{
+  text-decoration: none;
+  padding: 2px;
+}
