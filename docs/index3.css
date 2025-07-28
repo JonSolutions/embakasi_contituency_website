@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.list-container{
+    margin: 20px 50px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+}
+.left-col{
+    flex-basis: 70%;
+}
+.right-col{
+    flex-basis: 25%;
+}
+.left-col h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.business{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+.business-img{
+    flex-basis: 40%;
+}
+.business-info{
+    flex-basis: 58%;
+    color: #555;
+}
+.business-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+.business-info h3{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 4px 0;
+}
+.business-info i{
+    color: #77d4fd;
+    font-size: 18px;
+    margin: 10px 1px;
+}
+.business-info ul{
+    margin: 4px 15px;
+}
+.business-info ul li{
+    list-style: disc;
+}
+.business-cost{
+    font-size: 20px;
+    text-align: right;
+}
+.business-cost h4 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.sidebar{
+    border: 1px solid #999;
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+.sidebar h2{
+    font-weight: 600;
+}
+.sidebar h3{
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    color: #555;
+}
+.filter p{
+    flex: 1;
+}
+.filter input{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .list-container{
+        margin-top: 150px;
+    }
+    .left-col, .right-col, .business-img, .business-info{
+        flex-basis: 100%;
+    }
+    .left-col h1{
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+header{
+    background-image: url(media/JKIA-Refurbishment-1536x1021.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+/* .main{
+    height: 100px;
+    backdrop-filter: blur(50px);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+} */
+header ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 40px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+  
+}
+header ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border:1px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    background-color: #fff;
+    transition: 0.5s;
+
+}
+.active{
+    border-radius: 10px;
+    color: #000;
+
+}
+.active{
+    background-color: bisque;
+    border-radius: 10px;
+}
+.logo img:hover{
+    border-radius: 20px;
+    cursor: pointer;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+   
+}
+ul li a:hover{
+    background-color: bisque;
+    border-radius: 3px;
+    color: #000;
+}
+.dropdown_menu {
+    display: none;
+}
+.dropdown_menu ul{
+    display: block;
+    position: absolute;
+    padding: 0px;
+    margin-top: 2%;
+    
+}
+.dropdown_menu ul li{
+    padding: 10px;
+    left: 0%;
+}
+
+ul li:hover .dropdown_menu{
+    display:block ;
+    position: absolute;
+    margin-top: 0;
+    
+}
+.dropdown_menu2{
+    display: none;
+}
+.dropdown_menu2 ul{
+    display: block;
+    padding: 0px;
+    position: absolute;
+    margin-top: 2%;
+}
+.dropdown_menu2 ul li{
+    padding: 10px;
+    left: 0%;
+}
+ul li:hover .dropdown_menu2{
+    display: block;
+    position: absolute;
+    margin-top: 0%;
+}
+.h1{
+    color: burlywood;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.dropdown_menu3{
+    display: none;
+}
+.dropdown_menu3 ul{
+    display: block;
+    padding: 0;
+    margin-top: 2px;
+    position: absolute;
+
+}
+ul li:hover .dropdown_menu3{
+    display: block;
+}
+.dropdown_menu3 ul li{
+    display: block;
+    padding: 10px;
+}
+.dropdown_menu4{
+    display: none;
+}
+.dropdown_menu4 ul{
+    display: block;
+    margin-top: 2px;
+    padding: 0%;
+    position: absolute;
+
+}
+.dropdown_menu4 ul li{
+    display: block;
+    padding: 10%;
+}
+ul li:hover .dropdown_menu4{
+    display: block;
+}
+.container{
+    float: right;
+    margin-top: 40px;
+    position: right;
+}
+.container form{
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+    background-color: gray;
+}
+.container form,input{
+    padding: 5px;
+    margin-top: 2%;
+}
+.container button{
+    text-decoration: none;
+    padding: 2px;
+}

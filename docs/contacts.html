@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constituency Information Center</title>
+</head>
+<body>
+    
+   <header>
+    <div class="main">
+            <div class="logo">
+                <img class="active" src="media/cdf-official-logo.png" alt="">
+            </div>
+            <div class="container">
+                <form>
+                    <input type="text" placeholder="search details">
+                    <button class="active" type="submit"><a href="#"></a>submit</button>
+                </form>
+            </div>
+            <!---main menu-->
+        <ul>
+            <li ><a href="Peace.html">Home</a></li>
+            <li><a href="About Us.html">About us&nbsp;<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown_menu">
+                    <ul>
+                        <li><a href="About Us.html">Overview</a></li>
+                        <li><a href="About Us.html">Information</a></li>
+                        <li><a href="About Us.html">Geography</a></li>
+                        <li><a href="About Us.html">FAQs</a></li>
+                    </ul>  
+                </div>
+            </li>
+            <li><a href="#">Services&nbsp;<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown_menu2">
+                    <ul>
+                        <li><a href="media/Nyatike-NG-CDF-Bursary-Application-Form-2021_2022 (1).pdf" >Downloads</i></a></li>
+                        <li class="events"><a href="https://www.tuko.co.ke/editorial/537290-embakasi-gas-explosion-4-tragedies-occurred-alarm-raised-advance/">Events</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="bursary.html">Bursaries</a></li>
+                    </ul>
+                </div>
+                <li><a href="recources.html">Resources&nbsp;<i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown_menu4">
+                        <ul>
+                            <li><a href="recources.html" target="_blank">Business</a></li>
+                            <li><a href="#"> Amenities</a></li>
+                            <li><a href="maxxy.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </li>
+            <li><a href="contacts.html" class="active">Contact us&nbsp;<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown_menu3">
+                    <ul>
+                        <li><a href="enquiry.html">Enquiries</a></li>
+                        <li><a href="work_hours.html">Office hours</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            
+            </li>
+            
+        </ul>
+    </div>
+
+</header>
+    <div class="container_card">
+        <div class="card">
+            <h2>Constituency Enquiry</h2>
+            <p>Have questions? Use our enquiry form to get in touch with us.</p>
+            <a href="enquiry.html">Go to Enquiry Page &rarr;</a>
+        </div>
+        <div class="card">
+            <h2>Constituency Complaints</h2>
+            <p>Got any Feedback or concerns? Let us know, and we'll address them.</p>
+            <a href="feedback.html">Go to Complaints Page &rarr;</a>
+        </div>
+        <div class="card">
+            <h2>Constituency Office Hours</h2>
+            <p>Check our office hours to find the best time to visit us.</p>
+            <a href="work_hours.html">View Office Hours &rarr;</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<style>
+
+
+/* header {
+    text-align: center;
+    background-color: #007bff; 
+    color: #fff;
+    padding: 20px 0;
+} */
+
+.container_card{
+    max-width: 900px;
+    height: 70vh;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    width: calc(33.33% - 40px);
+    transition: 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.card h2 {
+    color: #007bff; 
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: block;
+    background-color: burlywood; /* Blue button background */
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.card a:hover {
+    background-color: bisque;
+    color: #000;
+}
+
+
+
+
+
+header{
+    background-image: url(media/JKIA-Refurbishment-1536x1021.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+/* .main{
+    height: 100px;
+    backdrop-filter: blur(50px);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+} */
+header ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 40px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+  
+}
+header ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border:1px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    background-color: #fff;
+    transition: 0.5s;
+
+}
+.active{
+    border-radius: 10px;
+    color: #000;
+
+}
+.active{
+    background-color: bisque;
+    border-radius: 10px;
+}
+.logo img:hover{
+    border-radius: 20px;
+    cursor: pointer;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+   
+}
+ul li a:hover{
+    background-color: bisque;
+    border-radius: 3px;
+    color: #000;
+}
+.dropdown_menu {
+    display: none;
+}
+.dropdown_menu ul{
+    display: block;
+    position: absolute;
+    padding: 0px;
+    margin-top: 2%;
+    
+}
+.dropdown_menu ul li{
+    padding: 10px;
+    left: 0%;
+}
+
+ul li:hover .dropdown_menu{
+    display:block ;
+    position: absolute;
+    margin-top: 0;
+    
+}
+.dropdown_menu2{
+    display: none;
+}
+.dropdown_menu2 ul{
+    display: block;
+    padding: 0px;
+    position: absolute;
+    margin-top: 2%;
+}
+.dropdown_menu2 ul li{
+    padding: 10px;
+    left: 0%;
+}
+ul li:hover .dropdown_menu2{
+    display: block;
+    position: absolute;
+    margin-top: 0%;
+}
+.h1{
+    color: burlywood;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.dropdown_menu3{
+    display: none;
+}
+.dropdown_menu3 ul{
+    display: block;
+    padding: 0;
+    margin-top: 2px;
+    position: absolute;
+
+}
+ul li:hover .dropdown_menu3{
+    display: block;
+}
+.dropdown_menu3 ul li{
+    display: block;
+    padding: 10px;
+}
+.dropdown_menu4{
+    display: none;
+}
+.dropdown_menu4 ul{
+    display: block;
+    margin-top: 2px;
+    padding: 0%;
+    position: absolute;
+
+}
+.dropdown_menu4 ul li{
+    display: block;
+    padding: 10%;
+}
+ul li:hover .dropdown_menu4{
+    display: block;
+}
+.container{
+    float: right;
+    margin-top: 40px;
+    position: right;
+}
+.container form{
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+    background-color: gray;
+}
+.container form,input{
+    padding: 5px;
+    margin-top: 2%;
+}
+.container button{
+    text-decoration: none;
+    padding: 2px;
+}
+</style>
